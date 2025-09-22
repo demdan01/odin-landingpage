@@ -88,6 +88,11 @@ background-color: #1F2937;
   font-weight: bold;
 }
 
+.hero_left button:hover {
+  background-color: white;
+  color: #3882f6;
+}
+
 .hero_right {
   display: flex;
   align-items: center;       
