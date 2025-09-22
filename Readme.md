@@ -3,6 +3,8 @@
 A simple, responsive landing page for a fictional supplement brand.  
 Designed with HTML and CSS to showcase products, descriptions, and a call-to-action button. Part of the Web Development Course "The Odin Project".
 
+[View live version](http://demdan01.github.io/odin-landingpage)
+
 ## Features
 
 - Layout with HTML & CSS
