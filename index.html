@@ -2,40 +2,98 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Landing page</title>
+  <title>EnergyMax Supplement</title>
   <link rel="stylesheet" href="style.css"/>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
 </head>
 <body>
-  <div class="Header">
-    <h3>Header Logo</h3>
-    <a href="index.html">header link one</a>
-    <a href="index.html">header link two</a>
-    <a href="index.html">header link three</a>
-    <h1>This Website is awesome</h1>
-    <p>This website has some subtext that goes here under the main title. It's a smaller font and the color is lower contrast.</p>
-    <button>Sign Up</button>
-    <img src="img/supplement.png" alt="Gym Logo" width="400" height="300">
-  </div>
-  <div class="picture_section">
-    <h2>Some Random Information.</h2>
-    <img src="img/grey_test.jpeg" alt="Gym Logo" width="150" height="150">
-    <p>this is some subtext under an image</p>
-    <img src="img/grey_test.jpeg" alt="Gym Logo" width="150" height="150">
-    <p>this is some subtext under an image</p>
-    <img src="img/grey_test.jpeg" alt="Gym Logo" width="150" height="150">
-    <p>this is some subtext under an image</p>
-  </div>
-  <div class="quote">
-    <p>This is an inspiring quote, or a testimonial from a customer. Maybe I just really like to play fortnite and minecraft.</p>
-    <h3>- Fortnite, Among Us of Minecraft</h3>
-  </div>
-  <div class="sign_up_banner">
-    <h2>Call to action! It's time!</h2>
-    <p>Sign up for our product by clicking the button right over there!</p>
-    <button>Sign Up</button>
-  </div>
-  <div class="footer">
-    <p>Copyright © TestSupplement Company 2025</p>
+  <div class="container">
+    <!-- Navigation -->
+    <div class="nav">
+      <div>
+        <h3>EnergyMax</h3>
+      </div>
+      <div class="links">
+        <a href="index.html">Home</a>
+        <a href="index.html#benefits">Benefits</a>
+        <a href="index.html#signup">Sign Up</a>
+      </div>
+    </div>
+
+    <!-- Hero Section -->
+    <div class="hero">
+      <div class="hero_left">
+        <div>
+          <h1>Boost Your Energy, Sleep Better, Feel Amazing!</h1>
+        </div>
+        <div>
+          <p>
+            EnergyMax is a revolutionary supplement designed to support natural energy, improve sleep quality, enhance mood, and help you build lean muscle. Perfect for anyone looking to elevate their daily performance.
+          </p>
+        </div>
+        <div>
+          <button>Sign Up Now</button>
+        </div>
+      </div>
+      <div class="hero_right">
+        <img src="img/supplement.png" alt="EnergyMax Supplement Bottle">
+      </div>
+    </div>
+
+    <!-- Picture/Benefits Section -->
+    <div class="picture_section" id="benefits">
+      <div class="picture_content">
+        <h2>Why Choose EnergyMax?</h2>
+        <div class="picture_row">
+          <div>
+            <img src="img/grey_test.jpeg" alt="Energy Boost" width="150" height="150">
+            <p>Natural ingredients to boost your daily energy levels</p>
+          </div>
+          <div>
+            <img src="img/grey_test.jpeg" alt="Sleep Improvement" width="150" height="150">
+            <p>Promotes deeper and more restful sleep</p>
+          </div>
+          <div>
+            <img src="img/grey_test.jpeg" alt="Mood Support" width="150" height="150">
+            <p>Enhances mood and mental clarity throughout the day</p>
+          </div>
+          <div>
+            <img src="img/grey_test.jpeg" alt="Muscle Growth" width="150" height="150">
+            <p>Supports lean muscle development for fitness enthusiasts</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Testimonial/Quote Section -->
+    <div class="quote_section">
+      <div class="quote">
+        <p>
+          "Since I started taking EnergyMax, I have more energy at work, sleep better at night, and feel stronger during my workouts!"
+        </p>
+      </div>
+      <div class="quote_name">
+        <h3>- Joni B., Fitness Enthusiast</h3>
+      </div>
+    </div>
+
+    <!-- Call to Action Banner -->
+    <div class="sign_up_banner" id="signup">
+      <div class="banner_text">
+        <h2>Ready to Transform Your Day?</h2>
+        <p>Sign up now and get your first bottle of EnergyMax today!</p>
+      </div>
+      <div class="banner_button">
+        <button>Sign Up</button>
+      </div>
+    </div> 
+
+    <!-- Footer -->
+    <div class="footer">
+      <div class="footer_text">
+        <p>Copyright © EnergyMax 2025 | Made for your energy and wellbeing</p>
+      </div>
+    </div>
   </div>
 </body>
 </html>
